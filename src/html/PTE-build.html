@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PTE</title>
+@@include('meta.html')
+    <meta name="keywords" content="PTE, Pearson Test on English, English test for migration">
+    <meta name="description" content="">
+    <meta name="pageIndex" content="PTE">
+@@if (environment == "development"){
+    @@include('externalCss.html')
+    @@include('externalJs.html')
+}
+@@if (environment == "production"){
+    @@include('externalCssMin.html')
+    @@include('externalJsMin.html')
+}
+
+</head>
+<body>
+
+@@include('header.html')
+@@include('carousel.html')
+
+<!--This container shows main paragraphs-->
+<div class="container">
+    <div class="row cx-blockTypeA" >
+        <div class="col-md-12">
+            <div class="cx-textDiv">
+                <h1>PTE & NAATI with BS Education.</h1>
+                <p>Some introduction here.</p>
+                <p>Some text here.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="row cx-blockTypeA">
+        <div class="col-md-6">
+            <div class="cx-textDiv">
+                <h1>How can WE... help YOU?</h1>
+                <a href="https://www.facebook.com/groups/719367338221726/" class="cx-btnAtBottomWithRadiusAndGradient" target="_blank">Join our Facebook Group!</a>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <div class="cx-textDiv">
+                <h1>Test Yourself!</h1>
+                <a href="PTE-test-copy.html" class="cx-btnAtBottomWithRadiusAndGradient">Take our free online test!</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--A hidden background image is here.-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div style="
+            background: url('../img/performancereference-02.png') center no-repeat fixed ;
+            background-size:100% auto;
+            min-height: 200px;"></div>
+        </div>
+    </div>
+</div>
+
+@@include('contactForm.html')
+
+@@include('footer.html')
+
+</body>
+</html>

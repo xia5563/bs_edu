@@ -1,0 +1,53 @@
+//The styles for most buttons.
+.cx-btn{
+  text-align: center;
+  text-decoration: none;
+  color: $colorForText;
+  overflow: hidden;
+  @include prefixed(transition, "transform 0.3s");
+  &:hover{
+    color:$colorForText;
+    @include prefixed(transform, translate(0px, -2px));
+    @include prefixed(box-shadow,0 5px 2px rgba(0,0,0, 0.7));
+  }
+  &:visited{
+    color:$colorForText;
+  }
+}
+.cx-btnWithRadius{
+  @extend .cx-btn;
+  @include prefixed(border-radius, 5px);
+  background: $bgForBtnGeneral;
+}
+.cx-btnWithRadiusAndGradient {
+  @extend .cx-btn;
+  display: block;
+  width:200px;
+  padding: 7px 3px;
+  margin:2px auto;
+  @include prefixed(border, 2px solid $colorForText);
+  @include prefixed(border-radius,10px);
+  @include sameColorBgGradient();
+}
+
+.cx-btnAtBottomWithRadiusAndGradient {
+  @extend .cx-btn;
+  display:block;
+  width:250px;
+  padding: 10px 5px;
+  position: absolute;
+  left:25%;
+  bottom: 5px;
+  @include prefixed(border-radius, 20px);
+  @include sameColorBgGradient();
+}
+.cx-btnLargeWithRadius{
+  @extend .cx-btn;
+  display: block;
+  width:50%;
+  padding: 20px 5px;
+  margin:5px auto;
+  font-size: 1.3em;
+  @include prefixed(border, 2px solid $colorForText);
+  @include prefixed(border-radius, 20px);
+}

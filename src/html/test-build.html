@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Testing....................</title>
+@@include('meta.html')
+    <meta name="keywords" content="BS education services, migration, PTE">
+    <meta name="description" content="">
+    <meta name="pageIndex" content="testing......................">
+@@if (environment == "development"){
+    @@include('externalCss.html')
+    @@include('externalJs.html')
+}
+@@if (environment == "production"){
+    @@include('externalCssMin.html')
+    @@include('externalJsMin.html')
+}
+
+<style type="text/css">
+   #div1{
+
+   }
+</style>
+</head>
+<body>
+<div id="div1" style="width:400px; height:400px; background-color: lightseagreen;"></div>
+</body>
+</html>

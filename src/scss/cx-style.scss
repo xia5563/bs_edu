@@ -1,0 +1,478 @@
+//Author: Chao Xia.
+//Description: This file defines most styles for the webpages using SCSS syntax. Note: The SCSS is different from CSS and SASS.
+//The prefix "cx-" indicates the style is created by Chao Xia. Thereby, "cx-" styles seperate themselves from others like bootstrap styles.
+
+@import "variables";
+@import "mixins";
+
+//The styles for small screens start.***********
+@media only screen and (max-width:767px){
+  body{
+    font-size:1.8em !important;
+  }
+  .navbar-nav{
+    //The ".active" is a bootstrap class indicating a hyperlink to a active page that is currently being visited.
+    >li.active{
+      >a{
+        background: $bgForNavActive  !important;
+      }
+    }
+  }
+  .cx-boxContainer{
+    .cx-box{
+      display: block;
+      width:100%;
+      height: 250px;
+    }
+  }
+}
+//***********The styles for small screens end.
+
+//The styles for large screens start.***********
+@media only screen and (min-width:768px){
+  body{
+    font-size: 1.5em !important;
+  }
+  .navbar-nav{
+    >li.active{
+      >a{
+        background-color: $bgForNav  ;
+        border-top:5px solid $bgForNavActive !important;
+        @include prefixed(box-shadow, 0px 2px 2px black);
+      }
+    }
+  }
+  .cx-boxContainer{
+    .cx-box{
+      display: block;
+      float: left;
+      width:50%;
+      height:250px;
+    }
+  }
+}
+//***********The styles for large screens end.
+
+
+//The following styles apply to all screens unless they are overridden by "!important". ***********
+@import "btn";
+
+.cx-boxContainer{
+  .cx-box{
+    //background-size: 100% 100% !important;
+  }
+  .cx-box1{
+    background:url(../img/performancereference-03.png) no-repeat center  ;
+    background-size: cover;
+  }
+  .cx-box2{
+    background:url(../img/ptereference-03.png) no-repeat center  ;
+    background-size: cover;
+  }
+  .cx-box3{
+    background:url(../img/resourcesreference-03.png) no-repeat center  ;
+    background-size: cover;
+  }
+  .cx-box4{
+    background:url(../img/mastersreference-02.png) no-repeat center  ;
+    background-size: cover;
+  }
+}
+
+.cx-firstRowDiv{
+  margin:10px;
+}
+//The form in header.
+.cx-formInHeader{
+  padding: 5px;
+  .form-control {
+    @include prefixed(border-radius,10px);
+    max-width:180px;
+    margin-bottom:5px;
+  }
+  span{
+    font-style:italic ;
+    color:$bgForNavActive;
+  }
+}
+//The navigation bar
+.cx-navRow{
+  margin:0px 3px;
+  position:relative;
+  z-index: 10;
+}
+button.navbar-toggle{
+  float:left !important;    //The navbar button shows on the left of small screens.
+}
+//Logo image.
+.cx-bslogo{
+  width:160px;
+  height:110px;
+}
+.cx-bslogoSmall{
+  width:60px;
+  height:auto;
+}
+.cx-bslogoOverlap {
+  @extend .cx-bslogo;
+  margin-top:-60px;  //The logo overlaps with what aboves it.
+}
+//The navigation bar styles
+.nav{
+  background-color: $bgForNav !important;
+  .navbar-nav{
+    >li{
+      >a{
+        color:$colorForText !important;
+        background-color: $bgForNav !important;
+        border-top:5px solid $bgForNav;
+        &:hover{
+          border-top:5px solid $bgForNavActive;
+          box-shadow:0px 0px 1px black;
+        }
+      }
+    }
+
+    //The ".open" is a bootstrap class indicating a dropdown menu is open.
+    li.open {
+      >a{
+        background-color: $bgForNav !important;
+        border-top:5px solid $bgForNavActive;
+        box-shadow:0px 0px 1px black;
+      }
+    //The dropdown menu items styles
+      .dropdown-menu{
+        padding: 0px !important;
+        a{
+          color: $colorForText !important;
+          background-color: $bgForNav !important;
+          &:hover{
+            background-color: $bgForNavActive !important;
+          }
+        }
+      }
+    }
+
+  }
+}
+//Remove bootstrap default padding.
+.container-fluid, .navbar-collapse{
+  padding: 0px !important;
+}
+//Remove bootstrap default link underline.
+a{
+  text-decoration: none !important;
+  &:hover{
+    text-decoration: none !important;
+  }
+}
+//add some styles to the layout block such as: "container", "row".
+.cx-blockTypeA{
+  margin:20px auto 0px; //top, right and left,  bottom
+}
+.cx-blockTypeB{
+  margin:20px auto; //top and bottom, right and left,
+}
+.carousel{
+  background-color: $bgForBlockGeneral;
+  .carousel-indicators{
+    bottom:58px;
+  }
+  .item{
+    img{
+      display: inline-block;
+      width: 100%;
+      margin:0 auto;
+    }
+    .carousel-caption{
+      position: static;
+      padding: 0;
+      margin: 25px 0 0 0;
+    }
+  }
+}
+
+//The div contains some text.
+.cx-textDiv{
+  position: relative;
+  padding: 5px  ;
+  background-color: $bgForBlockGeneral;
+  color:$colorForText;
+  border:$colorForText 2px solid;
+  min-height: 300px;
+}
+.cx-img{
+  margin-left: auto;
+  margin-right: auto;
+  max-width:250px;
+}
+.cx-contactDiv{
+  padding: 20px;
+  color: $colorForText;
+  background-color: $bgForBlockTypeA;
+}
+.cx-modal{
+  .modal-body{
+    color:green;
+    font-size: 120%;
+    text-align: center;
+  }
+}
+//The styles for PTE test and questions div
+.cx-PTETestContainerTypeA{
+  background-color: $bgForBlockGeneral;
+  margin: 20px auto;
+  .cx-PTETestQuestion{
+    background-color: $bgForNav;
+    color:$colorForText;
+    width:80%;
+    font-weight: bold;
+    font-size:1.2em;
+    padding: 0px 5px;
+    @include prefixed(border-radius, 5px);
+  }
+  .cx-PTETestAnswerGroup{
+    color:$bgForBlockGeneral;
+    background-color: $colorForText;
+    margin:5px 0px;
+    padding: 5px;
+    border:1px solid $bgForNav;
+    //The style for right answers when highlighted.
+    .cx-PTETestAnswerTypeAHighlighted{
+      background-color: lightgreen;
+    }
+    //The style for wrong answers done by user when highlighted.
+    .cx-PTETestAnswerTypeBHighlighted{
+      background-color: lightpink;
+    }
+  }
+
+  .cx-PTETestFeedback{
+    display: none;
+    background-color: $bgForNav;
+    color: $colorForText;
+    padding: 5px;
+    @include prefixed(border-radius, 10px);
+    #cx-PTETestFeedbackLeftCol{
+      background-color: $colorForText;
+      color: black;
+      padding: 10px;
+      margin: 10px 0px;
+      @include prefixed(border-radius, 10px);
+      div.row{
+        margin:10px 0px;
+        @include prefixed(border-radius, 10px);
+      }
+      .progress {
+        position: relative;
+        background-color: $bgForBlockTypeB;
+        .progress-bar{
+          width:0%;
+        }
+      }
+      .cx-PTETestFeedbackText{
+        position: absolute;
+        top:0;left:0;
+        z-index: 10;
+        color: $colorForText;
+        font-weight: bold;
+      }
+      .cx-PTETestFeedbackTextHighlighted{
+        color:$colorForHighlighted;
+      }
+      .cx-PTETestReadingFeedback{
+        background-color: $bgForDiv1;
+      }
+      .cx-PTETestSpeakingFeedback{
+        background-color: $bgForDiv2;
+      }
+      .cx-PTETestWritingFeedback{
+        background-color: $bgForDiv3;
+      }
+      .cx-PTETestListeningFeedback{
+        background-color: $bgForDiv4;
+      }
+    }
+    #cx-PTETestScoreBoard{
+      text-align: center;
+      .cx-PTETestScoreHighlighted{
+        color:$colorForHighlighted;
+        font-size:1.5em;
+      }
+    }
+  }
+}
+.cx-PTETestContainerTypeB{
+  background-color: $bgForBlockTypeA;
+  .cx-PTETestQuestion{
+    color:$colorForText;
+    width:80%;
+    font-weight: bold;
+    font-size:1.2em;
+    padding: 0px 5px;
+    @include prefixed(border-radius, 5px);
+  }
+  .cx-PTETestAnswerGroup{
+    color:$bgForBlockGeneral;
+    background-color: $colorForText;
+    margin:5px 0px;
+    padding: 5px;
+    border:1px solid $bgForNav;
+    //The style for right answers when highlighted.
+    .cx-PTETestAnswerTypeAHighlighted{
+      background-color: lightgreen;
+    }
+    //The style for wrong answers done by user when highlighted.
+    .cx-PTETestAnswerTypeBHighlighted{
+      background-color: lightpink;
+    }
+  }
+  .cx-PTETestReadingBtn{
+    @include sameColorBgGradient($bgForDiv1);
+  }
+  .cx-PTETestReading{
+    display: none;
+    background-color: lighten($bgForDiv1, 5%);
+  }
+  .cx-PTETestSpeakingBtn{
+    @include sameColorBgGradient($bgForDiv2);
+  }
+  .cx-PTETestSpeaking{
+    display: none;
+    background-color: lighten($bgForDiv2, 5%);
+  }
+  .cx-PTETestWritingBtn{
+    @include sameColorBgGradient($bgForDiv3);
+  }
+  .cx-PTETestWriting{
+    display: none;
+    background-color: lighten($bgForDiv3, 5%);
+  }
+  .cx-PTETestListeningBtn{
+    @include sameColorBgGradient($bgForDiv4);
+  }
+  .cx-PTETestListening{
+    display: none;
+    background-color: lighten($bgForDiv4, 5%);
+  }
+  .cx-PTETestFeedback{
+    display: none;
+    background-color: $bgForNav;
+    color: $colorForText;
+    padding: 5px;
+    @include prefixed(border-radius, 10px);
+    #cx-PTETestFeedbackLeftCol{
+      background-color: $colorForText;
+      color: black;
+      padding: 10px;
+      margin: 10px 0px;
+      @include prefixed(border-radius, 10px);
+      div.row{
+        margin:10px 0px;
+        @include prefixed(border-radius, 10px);
+      }
+      .progress {
+        position: relative;
+        background-color: $bgForBlockTypeB;
+        .progress-bar{
+          width:0%;
+        }
+      }
+      .cx-PTETestFeedbackText{
+        position: absolute;
+        top:0;left:0;
+        z-index: 10;
+        color: $colorForText;
+        font-weight: bold;
+      }
+      .cx-PTETestFeedbackTextHighlighted{
+        color:$colorForHighlighted;
+      }
+      .cx-PTETestReadingFeedback{
+        background-color: $bgForDiv1;
+      }
+      .cx-PTETestSpeakingFeedback{
+        background-color: $bgForDiv2;
+      }
+      .cx-PTETestWritingFeedback{
+        background-color: $bgForDiv3;
+      }
+      .cx-PTETestListeningFeedback{
+        background-color: $bgForDiv4;
+      }
+    }
+    #cx-PTETestScoreBoard{
+      text-align: center;
+      .cx-PTETestScoreHighlighted{
+        color:$colorForHighlighted;
+        font-size:1.5em;
+      }
+    }
+  }
+}
+.cx-aboutDiv{
+  background: url('../img/ptereference-03.png') no-repeat center;
+  background-size: cover;
+  min-height: 300px;
+}
+.cx-aboutTxt{
+  position: absolute;
+  top:10%;
+  right: 20%;
+  padding: 20px;
+  width:200px;
+  height:200px;
+  //$bgForBlockGeneral: #32689B;   //  rgb(50, 104, 155)
+  background-color: rgba(255,255,255, 0.1);
+  @include prefixed(border-radius, 50%);
+  @include prefixed(transition, "background-color 1s,color 1s, transform 1s");
+  &:hover{
+    //$bgForNavActive:brown;  // #A52A2A	rgb(165,42,42)
+    background-color: rgba(165,42,42,1);
+    color:$colorForText;
+    @include prefixed(transform, scale(1.1));
+  }
+}
+.cx-profileBox{
+  padding: 5px;
+  border: 1px solid $bgForNav;
+  //$bgForBlockGeneral: #32689B;   //  rgb(50, 104, 155)
+  background-color: $bgForBlockGeneral;
+  color: $colorForText;
+  @include prefixed(box-shadow, "0px 5px 5px grey");
+}
+
+.cx-footer{
+  padding: 0px 10px 5px; //top, right and left, bottom
+  background: $bgForNav;
+  color: $colorForText;
+  .cx-footerListGroup{
+    a{
+      display: block;
+      background-color: $bgForNav;
+      color:$colorForText;
+      line-height: 2.5em;
+      padding: 2px 5px;
+      &:hover{
+        background-color: $colorForText;
+        color:$bgForNav;
+      }
+    }
+  }
+
+  .cx-socialDiv{
+    height: 100%;
+    background: $bgForBlockTypeA;
+    a{
+      display: inline-block;
+      img{
+        @include prefixed(transition,"transform 0.5s");
+      }
+      img:hover{
+        @include prefixed(transform, scale(1.3));
+      }
+    }
+
+  }
+}
+

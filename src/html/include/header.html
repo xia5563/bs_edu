@@ -1,0 +1,69 @@
+<header class="container-fluid ">
+    <!--First row shows the company's logo, contact methods, and sign up form-->
+    <div class="row cx-firstRowDiv">
+        <div class="col-md-3 ">
+            <!--The image only show on small screens-->
+            <img class="cx-bslogo hidden-md hidden-lg" src="../img/bslogo.png" alt="Home">
+        </div>
+        <div class="col-md-3">
+            <p class="cx-firstLineContactText">Level 3, 105 Queen Street,<br>
+                Melbourne Vic<br>
+                <span class="glyphicon glyphicon-earphone"></span> 1300 052 797 <br>
+                <span class="glyphicon glyphicon-envelope"></span> customer@bseducation.com.au
+            </p>
+        </div>
+        <div class="col-md-6">
+            <form class="form-inline cx-formInHeader">
+                <div class="form-group-sm">
+                    <input type="email" class="form-control " id="emailInHeader" placeholder="Email">
+                    <input type="password" class="form-control" id="pwdInHeader" placeholder="password">
+                    <button type="submit" class="cx-btnWithRadius">Sign in</button>
+                    <span>&nbsp; OR &nbsp;</span>
+                    <button   href="#" class="cx-btnWithRadius">Sign Up Now!</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <!--The navigation bar-->
+    <div class="row cx-navRow">
+        <nav class="nav navbar-default">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--The image only show on large screens-->
+                <a class="hidden-xs hidden-sm" href="index.html" >
+                    <img class="cx-bslogoOverlap" src="../img/bslogo.png" alt="Home">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav navbar-nav">
+                    <!--pageIndex is a customized attribute by Chao used to indicating which page is being visited.
+                    I will insert a specific 'meta' in every page and let jquery match their values.-->
+                    <li pageIndex="Home"><a href="index.html">Home</a></li>
+                    <li pageIndex="About" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >About<span class="caret"></span> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">The Team</a> </li>
+                            <li><a href="#">BS Education</a> </li>
+                        </ul>
+                    </li>
+                    <li pageIndex="Contact"><a href="contact.html">Contact</a></li>
+                    <li pageIndex="RPL"><a href="#">RPL</a></li>
+                    <li pageIndex="PTE"><a href="PTE.html">PTE & NAATI</a></li>
+                    <li pageIndex="PY"><a href="#">PY</a></li>
+                    <li pageIndex="Admission"><a href="#">Admission</a></li>
+                    <li pageIndex="Migration"><a href="#">Migration</a></li>
+                    <li pageIndex="Blog"><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </div>
+
+</header>

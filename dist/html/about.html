@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About BS Education Service</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Chao Xia">
+
+    <meta name="keywords" content="BS Education Service, About">
+    <meta name="description" content="">
+    <meta name="pageIndex" content="About">
+
+
+    <link rel="stylesheet" href="../lib/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../lib/bootstrap-3.3.6-dist/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/cx-style.min.css">
+    <script src="../lib/bootstrap-3.3.6-dist/js/jquery-2.2.1.min.js"></script>
+    <script src="../lib/bootstrap-3.3.6-dist/js/jquery-ui.min.js"></script>
+    <script src="../lib/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <script src="../js/cx-jQuery.min.js"></script>
+
+
+</head>
+<body>
+<header class="container-fluid ">
+    <!--First row shows the company's logo, contact methods, and sign up form-->
+    <div class="row cx-firstRowDiv">
+        <div class="col-md-3 ">
+            <!--The image only show on small screens-->
+            <img class="cx-bslogo hidden-md hidden-lg" src="../img/bslogo.png" alt="Home">
+        </div>
+        <div class="col-md-3">
+            <p class="cx-firstLineContactText">Level 3, 105 Queen Street,<br>
+                Melbourne Vic<br>
+                <span class="glyphicon glyphicon-earphone"></span> 1300 052 797 <br>
+                <span class="glyphicon glyphicon-envelope"></span> customer@bseducation.com.au
+            </p>
+        </div>
+        <div class="col-md-6">
+            <form class="form-inline cx-formInHeader">
+                <div class="form-group-sm">
+                    <input type="email" class="form-control " id="emailInHeader" placeholder="Email">
+                    <input type="password" class="form-control" id="pwdInHeader" placeholder="password">
+                    <button type="submit" class="cx-btnWithRadius">Sign in</button>
+                    <span>&nbsp; OR &nbsp;</span>
+                    <button   href="#" class="cx-btnWithRadius">Sign Up Now!</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <!--The navigation bar-->
+    <div class="row cx-navRow">
+        <nav class="nav navbar-default">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--The image only show on large screens-->
+                <a class="hidden-xs hidden-sm" href="index.html" >
+                    <img class="cx-bslogoOverlap" src="../img/bslogo.png" alt="Home">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav navbar-nav">
+                    <!--pageIndex is a customized attribute by Chao used to indicating which page is being visited.
+                    I will insert a specific 'meta' in every page and let jquery match their values.-->
+                    <li pageIndex="Home"><a href="index.html">Home</a></li>
+                    <li pageIndex="About" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >About<span class="caret"></span> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">The Team</a> </li>
+                            <li><a href="#">BS Education</a> </li>
+                        </ul>
+                    </li>
+                    <li pageIndex="Contact"><a href="contact.html">Contact</a></li>
+                    <li pageIndex="RPL"><a href="#">RPL</a></li>
+                    <li pageIndex="PTE"><a href="PTE.html">PTE & NAATI</a></li>
+                    <li pageIndex="PY"><a href="#">PY</a></li>
+                    <li pageIndex="Admission"><a href="#">Admission</a></li>
+                    <li pageIndex="Migration"><a href="#">Migration</a></li>
+                    <li pageIndex="Blog"><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<div class="container">
+    <div class="row cx-blockTypeB">
+        <div class="col-md-12">
+            <div class="cx-aboutDiv">
+            </div>
+            <div class="cx-aboutTxt">
+                <h3>Sample Title</h3>
+                <p>Sample text...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row cx-blockTypeB">
+        <div class="col-md-3">
+            <div class="cx-profileBox">
+                <img src="../img/red-tie-suit.png" class="img-responsive cx-img">
+                <h5>Sample Title</h5>
+                <p>Sample text.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="cx-profileBox">
+                <img src="../img/red-tie-suit.png" class="img-responsive cx-img">
+                <h5>Sample Title</h5>
+                <p>Sample text.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="cx-profileBox">
+                <img src="../img/red-tie-suit.png" class="img-responsive cx-img">
+                <h5>Sample Title</h5>
+                <p>Sample text.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="cx-profileBox">
+                <img src="../img/red-tie-suit.png" class="img-responsive cx-img">
+                <h5>Sample Title</h5>
+                <p>Sample text.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row cx-blockTypeB">
+        <div class="col-md-3">
+            <div class="cx-profileBox">
+                <img src="../img/red-tie-suit.png" class="img-responsive cx-img">
+                <h5>Sample Title</h5>
+                <p>Sample text.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="cx-profileBox">
+                <img src="../img/red-tie-suit.png" class="img-responsive cx-img">
+                <h5>Sample Title</h5>
+                <p>Sample text.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="cx-profileBox">
+                <img src="../img/red-tie-suit.png" class="img-responsive cx-img">
+                <h5>Sample Title</h5>
+                <p>Sample text.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="cx-profileBox">
+                <img src="../img/red-tie-suit.png" class="img-responsive cx-img">
+                <h5>Sample Title</h5>
+                <p>Sample text.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--The footer has some quick links and social icons.-->
+<footer class="container-fluid cx-footer">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="cx-footerListGroup">
+                <a href="index.html" class="">Home</a>
+                <a href="contact.html" class="">Contact</a>
+                <a href="#" class="">Blog</a>
+                <a href="#" class="">Follow us</a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="cx-footerListGroup">
+                <a href="#" class="">Life in Australia</a>
+                <a href="#" class="">Living expenses</a>
+                <a href="#" class="">Opportunities</a>
+                <a href="#" class="">Working during study</a>
+                <a href="#" class="">Australian Economy</a>
+            </div>
+        </div>
+        <div class="col-md-6 cx-socialDiv">
+            <a href="https://www.facebook.com/bseducationmelbourne/" target="_blank"><img src="../img/facebook.png" alt="facebook"></a>
+            <a href="#" target="_blank"><img src="../img/twitter.png" alt="twitter"></a>
+            <a href="#" target="_blank"><img src="../img/youtube.png" alt="youtube"></a>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PTE online test</title>
+@@include('meta.html')
+    <meta name="keywords" content="PTE, test">
+    <meta name="description" content="">
+    <meta name="pageIndex" content="PTE-test">
+@@if (environment == "development"){
+    @@include('externalCss.html')
+    @@include('externalJs.html')
+}
+@@if (environment == "production"){
+    @@include('externalCssMin.html')
+    @@include('externalJsMin.html')
+}
+
+</head>
+<body>
+@@include('header.html')
+
+<div class="container">
+    <div class="row cx-blockTypeB">
+        <div class="col-md-12 cx-textDiv">
+            <h4>This is an online PTE test.</h4>
+            <p>Some instructions here.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container cx-PTETestContainerTypeB cx-blockTypeB" >
+<!--Question parts start-->
+    <div class="row cx-blockTypeB">
+        <div class="col-md-12">
+            <button class="cx-btnLargeWithRadius cx-PTETestReadingBtn">Reading</button>
+
+            <div class="row cx-blockTypeB cx-PTETestReading">
+                <div class="col-md-6 ">
+                    <div class="cx-PTETestQuestion">Q1: This is question 1?</div>
+                    <form class="cx-PTETestAnswerGroup cx-PTETestReadingAnswerGroup">
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">Option 1</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio" class="cx-PTETestAnswerTypeA">Right answer.</label>
+                        </div>
+                        <div class="radio ">
+                            <label><input type="radio" name="optradio">Option 3</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="cx-PTETestQuestion">Q: This is question 2?</div>
+                    <form class="cx-PTETestAnswerGroup cx-PTETestReadingAnswerGroup">
+                        <div class="radio">
+                            <label><input type="radio" name="optradio" class="cx-PTETestAnswerTypeA">Right answer.</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">Option 2</label>
+                        </div>
+                        <div class="radio ">
+                            <label><input type="radio" name="optradio">Option 3</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row cx-blockTypeB cx-PTETestReading">
+                <div class="col-md-6 ">
+                    <div class="cx-PTETestQuestion">Q1: This is question 3?</div>
+                    <form class="cx-PTETestAnswerGroup cx-PTETestReadingAnswerGroup">
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">Option 1</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio" class="cx-PTETestAnswerTypeA">Right answer.</label>
+                        </div>
+                        <div class="radio ">
+                            <label><input type="radio" name="optradio">Option 3</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 ">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row cx-blockTypeB">
+        <div class="col-md-12">
+            <button class="cx-btnLargeWithRadius cx-PTETestSpeakingBtn">Speaking</button>
+
+            <div class="row cx-blockTypeB cx-PTETestSpeaking">
+                <div class="col-md-6 ">
+                    <div class="cx-PTETestQuestion">Q1: This is question 4?</div>
+                    <form class="cx-PTETestAnswerGroup cx-PTETestSpeakingAnswerGroup">
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">Option 1</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio" class="cx-PTETestAnswerTypeA">Right answer.</label>
+                        </div>
+                        <div class="radio ">
+                            <label><input type="radio" name="optradio">Option 3</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="cx-PTETestQuestion">Q: This is question 5?</div>
+                    <form class="cx-PTETestAnswerGroup cx-PTETestSpeakingAnswerGroup">
+                        <div class="radio">
+                            <label><input type="radio" name="optradio" class="cx-PTETestAnswerTypeA">Right answer.</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">Option 2</label>
+                        </div>
+                        <div class="radio ">
+                            <label><input type="radio" name="optradio">Option 3</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row cx-blockTypeB cx-PTETestSpeaking">
+                <div class="col-md-6 ">
+                    <div class="cx-PTETestQuestion">Q1: This is question 6?</div>
+                    <form class="cx-PTETestAnswerGroup cx-PTETestSpeakingAnswerGroup">
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">Option 1</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio" class="cx-PTETestAnswerTypeA">Right answer.</label>
+                        </div>
+                        <div class="radio ">
+                            <label><input type="radio" name="optradio">Option 3</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 ">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row cx-blockTypeB">
+        <div class="col-md-12">
+            <button class="cx-btnLargeWithRadius cx-PTETestWritingBtn">Writing</button>
+
+            <div class="row cx-blockTypeB cx-PTETestWriting">
+                <div class="col-md-6 ">
+                    <div class="cx-PTETestQuestion">Q1: This is question 7?</div>
+                    <form class="cx-PTETestAnswerGroup cx-PTETestWritingAnswerGroup">
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">Option 1</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio" class="cx-PTETestAnswerTypeA">Right answer.</label>
+                        </div>
+                        <div class="radio ">
+                            <label><input type="radio" name="optradio">Option 3</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="cx-PTETestQuestion">Q: This is question 8?</div>
+                    <form class="cx-PTETestAnswerGroup cx-PTETestWritingAnswerGroup">
+                        <div class="radio">
+                            <label><input type="radio" name="optradio" class="cx-PTETestAnswerTypeA">Right answer.</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">Option 2</label>
+                        </div>
+                        <div class="radio ">
+                            <label><input type="radio" name="optradio">Option 3</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row cx-blockTypeB cx-PTETestWriting">
+                <div class="col-md-6 ">
+                    <div class="cx-PTETestQuestion">Q1: This is question 9?</div>
+                    <form class="cx-PTETestAnswerGroup cx-PTETestWritingAnswerGroup">
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">Option 1</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio" class="cx-PTETestAnswerTypeA">Right answer.</label>
+                        </div>
+                        <div class="radio ">
+                            <label><input type="radio" name="optradio">Option 3</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 ">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row cx-blockTypeB">
+        <div class="col-md-12">
+            <button class="cx-btnLargeWithRadius cx-PTETestListeningBtn">Listening</button>
+
+            <div class="row cx-blockTypeB cx-PTETestListening">
+                <div class="col-md-6 ">
+                    <div class="cx-PTETestQuestion">Q1: This is question 10?</div>
+                    <form class="cx-PTETestAnswerGroup cx-PTETestListeningAnswerGroup">
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">Option 1</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio" class="cx-PTETestAnswerTypeA">Right answer.</label>
+                        </div>
+                        <div class="radio ">
+                            <label><input type="radio" name="optradio">Option 3</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="cx-PTETestQuestion">Q: This is question 11?</div>
+                    <form class="cx-PTETestAnswerGroup cx-PTETestListeningAnswerGroup">
+                        <div class="radio">
+                            <label><input type="radio" name="optradio" class="cx-PTETestAnswerTypeA">Right answer.</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">Option 2</label>
+                        </div>
+                        <div class="radio ">
+                            <label><input type="radio" name="optradio">Option 3</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row cx-blockTypeB cx-PTETestListening">
+                <div class="col-md-6 ">
+                    <div class="cx-PTETestQuestion">Q1: This is question 12?</div>
+                    <form class="cx-PTETestAnswerGroup cx-PTETestListeningAnswerGroup">
+                        <div class="radio">
+                            <label><input type="radio" name="optradio">Option 1</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="optradio" class="cx-PTETestAnswerTypeA">Right answer.</label>
+                        </div>
+                        <div class="radio ">
+                            <label><input type="radio" name="optradio">Option 3</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 ">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Question parts end-->
+
+    <div class="row cx-blockTypeB">
+        <div class="col-md-6 ">
+            <button id="cx-PTETestSubmitBtn" class="cx-btnWithRadiusAndGradient">Submit</button>
+        </div>
+        <div class="col-md-6 ">
+            <button id="cx-PTETestResetBtn" class="cx-btnWithRadiusAndGradient">Reset</button>
+        </div>
+    </div>
+
+<!--Feedback parts start-->
+    <div class="cx-blockTypeA cx-PTETestFeedback">
+        <div class="row ">
+            <div class="col-md-6 ">
+                <div id="cx-PTETestFeedbackLeftCol">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="progress">
+                                <div class="cx-PTETestFeedbackText"></div>
+                                <div class="progress-bar cx-PTETestReadingFeedback" role="progressbar" aria-valuemin="0" aria-valuemax="100" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="progress">
+                                <div class="cx-PTETestFeedbackText"></div>
+                                <div class="progress-bar cx-PTETestSpeakingFeedback" role="progressbar"  aria-valuemin="0" aria-valuemax="100" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="progress">
+                                <div class="cx-PTETestFeedbackText"></div>
+                                <div class="progress-bar cx-PTETestWritingFeedback" role="progressbar"  aria-valuemin="0" aria-valuemax="100" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="progress">
+                                <div class="cx-PTETestFeedbackText"></div>
+                                <div class="progress-bar cx-PTETestListeningFeedback" role="progressbar"  aria-valuemin="0" aria-valuemax="100" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+            <h3>Your overall score:</h3>
+            <h1 id="cx-PTETestScoreBoard">
+                <span id="cx-PTETestScoreRightAnswers">0</span> out of
+                <span id="cx-PTETestScoreAllQuestions">0</span> is:
+                <span id="cx-PTETestScore" class="cx-PTETestScoreHighlighted">0</span>%
+            </h1>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <button id="cx-PTETestShowAnswerBtn" class="cx-btnWithRadiusAndGradient" >Show answers</button>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="cx-btnWithRadiusAndGradient" >Try more?</a>
+            </div>
+        </div>
+    </div>
+<!--Feedback parts end-->
+
+</div>
+
+
+
+
+
+@@include('footer.html')
+</body>
+</html>

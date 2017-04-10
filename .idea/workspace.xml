@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="589c54b5-ccab-4083-bf30-6e8a25ecf357" name="Default" comment="" />
+    <ignored path="BS_education.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/externalCss.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490155951928" ignored="false" />
+    <file path="/externalCssMin.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490156086562" ignored="false" />
+    <file path="/externalJS.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490156297898" ignored="false" />
+    <file path="/externalJSMin.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490156395770" ignored="false" />
+    <file path="/gulpfile.js" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1491790836353" ignored="false" />
+    <file path="/about-build.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490508849777" ignored="false" />
+    <file path="/header.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490499326291" ignored="false" />
+    <file path="/index-build.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1491193759929" ignored="false" />
+    <file path="/footer.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490499410492" ignored="false" />
+    <file path="/carousel.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490499510485" ignored="false" />
+    <file path="/cx-jQuery.js" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1491273681891" ignored="false" />
+    <file path="/PTE-test-build.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1491120858335" ignored="false" />
+    <file path="/cx-style.scss" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1491278301290" ignored="false" />
+    <file path="/a.dummy" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1491126136614" ignored="false" />
+    <file path="/contact-build.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490505444125" ignored="false" />
+    <file path="/customerReview-build.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490505451597" ignored="false" />
+    <file path="/externalJsMin.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490572545141" ignored="false" />
+    <file path="/PTE-test-build-copy.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1491121966216" ignored="false" />
+    <file path="/_variables.scss" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490680820042" ignored="false" />
+    <file path="/_mixins.scss" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490762622521" ignored="false" />
+    <file path="/btn.scss" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1490761540023" ignored="false" />
+    <file path="/index.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1491200120436" ignored="false" />
+    <file path="/test.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1491289249050" ignored="false" />
+    <file path="/test-build.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1491289573334" ignored="false" />
+    <file path="/PTE-build.html" changelist="589c54b5-ccab-4083-bf30-6e8a25ecf357" time="1491791571065" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="BS_education" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="cx-style.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/cx-style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="111" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-build.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/test-build.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="115" selection-start="525" selection-end="525" vertical-scroll-proportion="-11.115385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PTE-build.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/PTE-build.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="109" selection-start="1629" selection-end="1629" vertical-scroll-proportion="-12.423077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.6333973">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="96" column="107" selection-start="4009" selection-end="4009" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1060#1094#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cx-jQuery.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/cx-jQuery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="299" column="14" selection-start="11760" selection-end="11760" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#158#0" expanded="false" />
+                <element signature="e#224#677#0" expanded="false" />
+                <element signature="e#581#611#0" expanded="false" />
+                <element signature="n#!!block;n#addClassToActivePage#0" expanded="false" />
+                <element signature="n#!!block;n#isOnSmallScreen#0" expanded="false" />
+                <element signature="e#1038#1066#0" expanded="false" />
+                <element signature="e#1070#1099#0" expanded="false" />
+                <element signature="n#!!block;n#animateNavbarOnScroll#0" expanded="false" />
+                <element signature="n#!!block;n#mouseenterNav#0;n#!!block;n#animateNavbarOnScroll#0" expanded="false" />
+                <element signature="n#!!block;n#mouseleaveNav#0;n#!!block;n#animateNavbarOnScroll#0" expanded="false" />
+                <element signature="e#1650#2889#0" expanded="false" />
+                <element signature="e#1800#2385#0" expanded="false" />
+                <element signature="e#2005#2375#0" expanded="false" />
+                <element signature="e#2389#2883#0" expanded="false" />
+                <element signature="e#2510#2873#0" expanded="false" />
+                <element signature="n#!!block;n#animateCxbox#0" expanded="false" />
+                <element signature="n#!!block;n#mouseenterBox#0;n#!!block;n#animateCxbox#0" expanded="false" />
+                <element signature="e#4164#4467#0" expanded="false" />
+                <element signature="n#!!block;n#mouseleaveBox#0;n#!!block;n#animateCxbox#0" expanded="false" />
+                <element signature="n#!!block;n#animatePTETestAnswerGroup#0" expanded="false" />
+                <element signature="e#4986#5421#0" expanded="false" />
+                <element signature="e#5156#5311#0" expanded="false" />
+                <element signature="e#5216#5301#0" expanded="false" />
+                <element signature="n#!!block;n#animatePTETestFeedback#0" expanded="false" />
+                <element signature="e#5729#6095#0" expanded="false" />
+                <element signature="e#6154#6468#0" expanded="false" />
+                <element signature="e#6522#6735#0" expanded="false" />
+                <element signature="n#!!block;n#getPTETestResult#0" expanded="false" />
+                <element signature="e#7064#7211#0" expanded="false" />
+                <element signature="n#!!block;n#getPartialScore#0" expanded="false" />
+                <element signature="e#7992#8104#0" expanded="false" />
+                <element signature="n#!!block;n#showPTETestResult#0" expanded="false" />
+                <element signature="n#!!block;n#showPartialResult#0" expanded="false" />
+                <element signature="e#9055#9130#0" expanded="false" />
+                <element signature="e#9134#9212#0" expanded="false" />
+                <element signature="n#!!block;n#animateNumbers#0" expanded="false" />
+                <element signature="e#9432#9455#0" expanded="false" />
+                <element signature="e#9459#9757#0" expanded="false" />
+                <element signature="n#!!block;n#toggleVideo#0" expanded="false" />
+                <element signature="e#9873#10490#0" expanded="false" />
+                <element signature="e#10100#10373#0" expanded="false" />
+                <element signature="e#10178#10361#0" expanded="false" />
+                <element signature="e#10386#10483#0" expanded="false" />
+                <element signature="n#!!block;n#animateImg#0" expanded="false" />
+                <element signature="e#10806#10846#0" expanded="false" />
+                <element signature="e#11268#11500#0" expanded="false" />
+                <element signature="e#11407#11488#0" expanded="false" />
+                <element signature="e#11522#11755#0" expanded="false" />
+                <element signature="e#11661#11736#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/html/contact-build.html" />
+        <option value="$PROJECT_DIR$/src/html/customerReview-build.html" />
+        <option value="$PROJECT_DIR$/src/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/html/PTE-test-copy.html" />
+        <option value="$PROJECT_DIR$/src/scss/btn.scss" />
+        <option value="$PROJECT_DIR$/src/html/PTE-test-build.html" />
+        <option value="$PROJECT_DIR$/src/html/PTE-test-build-copy.html" />
+        <option value="$PROJECT_DIR$/src/scss/_mixins.scss" />
+        <option value="$PROJECT_DIR$/src/html/index-build.html" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/scss/cx-style.scss" />
+        <option value="$PROJECT_DIR$/src/html/test.html" />
+        <option value="$PROJECT_DIR$/src/html/test-build.html" />
+        <option value="$PROJECT_DIR$/src/js/cx-jQuery.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/html/PTE-build.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BS_education" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PublishConfig" serverName="chaosDemo" serverId="4ece9106-f88c-40d1-a447-0b1420f25383">
+    <servers>
+      <server id="4ece9106-f88c-40d1-a447-0b1420f25383">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/chaosdemo.co.nf" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\webStormSpace\BS_education\dist" />
+      <recent name="D:\webStormSpace\BS_education\dist\img" />
+      <recent name="D:\webStormSpace\BS_education\src\html" />
+      <recent name="D:\webStormSpace\BS_education" />
+      <recent name="D:\webStormSpace\BS_education\src\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="589c54b5-ccab-4083-bf30-6e8a25ecf357" name="Default" comment="" />
+      <created>1490154587972</created>
+      <updated>1490154587972</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22525597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.670068" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.77474403" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24544074" sideWeight="0.77474403" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33105803" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/html/PTE-test-copy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="93" selection-start="3222" selection-end="3222" vertical-scroll-proportion="-4.1153846" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/include/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/include/meta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="58" selection-start="190" selection-end="190" vertical-scroll-proportion="0.09514926" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/include/externalCss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="59" selection-start="0" selection-end="212" vertical-scroll-proportion="0.063432835" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/include/externalJs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="53" selection-start="0" selection-end="261" vertical-scroll-proportion="0.09514926" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="60" selection-start="467" selection-end="467" vertical-scroll-proportion="0.20708956">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/index-build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.031716418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/cx-jQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="299" column="14" selection-start="11760" selection-end="11760" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#158#0" expanded="false" />
+            <element signature="e#224#677#0" expanded="false" />
+            <element signature="e#581#611#0" expanded="false" />
+            <element signature="n#!!block;n#addClassToActivePage#0" expanded="false" />
+            <element signature="n#!!block;n#isOnSmallScreen#0" expanded="false" />
+            <element signature="e#1038#1066#0" expanded="false" />
+            <element signature="e#1070#1099#0" expanded="false" />
+            <element signature="n#!!block;n#animateNavbarOnScroll#0" expanded="false" />
+            <element signature="n#!!block;n#mouseenterNav#0;n#!!block;n#animateNavbarOnScroll#0" expanded="false" />
+            <element signature="n#!!block;n#mouseleaveNav#0;n#!!block;n#animateNavbarOnScroll#0" expanded="false" />
+            <element signature="e#1650#2889#0" expanded="false" />
+            <element signature="e#1800#2385#0" expanded="false" />
+            <element signature="e#2005#2375#0" expanded="false" />
+            <element signature="e#2389#2883#0" expanded="false" />
+            <element signature="e#2510#2873#0" expanded="false" />
+            <element signature="n#!!block;n#animateCxbox#0" expanded="false" />
+            <element signature="n#!!block;n#mouseenterBox#0;n#!!block;n#animateCxbox#0" expanded="false" />
+            <element signature="e#4164#4467#0" expanded="false" />
+            <element signature="n#!!block;n#mouseleaveBox#0;n#!!block;n#animateCxbox#0" expanded="false" />
+            <element signature="n#!!block;n#animatePTETestAnswerGroup#0" expanded="false" />
+            <element signature="e#4986#5421#0" expanded="false" />
+            <element signature="e#5156#5311#0" expanded="false" />
+            <element signature="e#5216#5301#0" expanded="false" />
+            <element signature="n#!!block;n#animatePTETestFeedback#0" expanded="false" />
+            <element signature="e#5729#6095#0" expanded="false" />
+            <element signature="e#6154#6468#0" expanded="false" />
+            <element signature="e#6522#6735#0" expanded="false" />
+            <element signature="n#!!block;n#getPTETestResult#0" expanded="false" />
+            <element signature="e#7064#7211#0" expanded="false" />
+            <element signature="n#!!block;n#getPartialScore#0" expanded="false" />
+            <element signature="e#7992#8104#0" expanded="false" />
+            <element signature="n#!!block;n#showPTETestResult#0" expanded="false" />
+            <element signature="n#!!block;n#showPartialResult#0" expanded="false" />
+            <element signature="e#9055#9130#0" expanded="false" />
+            <element signature="e#9134#9212#0" expanded="false" />
+            <element signature="n#!!block;n#animateNumbers#0" expanded="false" />
+            <element signature="e#9432#9455#0" expanded="false" />
+            <element signature="e#9459#9757#0" expanded="false" />
+            <element signature="n#!!block;n#toggleVideo#0" expanded="false" />
+            <element signature="e#9873#10490#0" expanded="false" />
+            <element signature="e#10100#10373#0" expanded="false" />
+            <element signature="e#10178#10361#0" expanded="false" />
+            <element signature="e#10386#10483#0" expanded="false" />
+            <element signature="n#!!block;n#animateImg#0" expanded="false" />
+            <element signature="e#10806#10846#0" expanded="false" />
+            <element signature="e#11268#11500#0" expanded="false" />
+            <element signature="e#11407#11488#0" expanded="false" />
+            <element signature="e#11522#11755#0" expanded="false" />
+            <element signature="e#11661#11736#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/cx-style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="111" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/cx-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-14.85428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="50" selection-start="738" selection-end="738" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="107" selection-start="4009" selection-end="4009" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1060#1094#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/test-build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="115" selection-start="525" selection-end="525" vertical-scroll-proportion="-11.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/PTE-test-build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="57" selection-start="440" selection-end="440" vertical-scroll-proportion="111.15385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/PTE-build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="109" selection-start="1629" selection-end="1629" vertical-scroll-proportion="-12.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.6333973">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
